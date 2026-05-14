@@ -87,6 +87,6 @@ cd server-name && stop.bat
   `docker compose up -d` in any server folder.
   Root `docker-compose.yml` starts all 100.
 - **No test files** — This is the production copy.
-  Test/generator scripts are in `mcp-servers-source`.
-- **Source of truth** — Regenerate from `mcp-servers-source`.
+  Test/generator scripts are in [`mcp-servers-source`](https://github.com/wildfirebill-ai/mcp-servers-source).
+- **Source of truth** — Regenerate from [`mcp-servers-source`](https://github.com/wildfirebill-ai/mcp-servers-source).
   Do not edit prod files directly — change source and copy over.
